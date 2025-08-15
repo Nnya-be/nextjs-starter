@@ -74,7 +74,7 @@ export class UsersService {
             ...createUserDto,
             updatedAt: new Date().toISOString(),
             createdAt: new Date().toISOString()
-        }
+        }  
 
         this.users.push(newUser);
 
